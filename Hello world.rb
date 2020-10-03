@@ -1,4 +1,3 @@
-puts "   /|"
-puts "  / |"
-puts " /  |"
-puts "/___|"
+name = "John"
+
+puts ("My name is " + name)

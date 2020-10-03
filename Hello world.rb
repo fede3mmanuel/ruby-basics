@@ -1,4 +1,4 @@
 puts "   /|"
 puts "  / |"
 puts " /  |"
-puts "/___|" 
+puts "/___|"

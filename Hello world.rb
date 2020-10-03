@@ -2,7 +2,7 @@ name = "John"
 age = "22"
 
 puts ("My name is " + name)
-puts ("I have " + age + " years old\"")
+puts ("I have " + age + " years\n old\"")
 
 name = "te"
 

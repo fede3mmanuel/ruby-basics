@@ -1,3 +1,5 @@
-name = "John"
+name = "John how"
 
-puts name
+puts name.index("h")
+
+puts "test".upcase()

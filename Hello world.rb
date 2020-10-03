@@ -1,2 +1,4 @@
-print "Hello World"
-puts "Hello"  
+puts "   /|"
+puts "  / |"
+puts " /  |"
+puts "/___|" 

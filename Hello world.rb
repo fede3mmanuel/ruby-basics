@@ -1,5 +1,9 @@
-puts "Enter your name"
+puts "First number:"
 
-name = gets.chomp()
+num1 = gets.chomp()
 
-puts (name + "hello")
+puts "Second number:"
+
+num2 = gets.chomp()
+
+puts (num1 + num2)

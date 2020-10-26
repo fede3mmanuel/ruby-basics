@@ -1,9 +1,18 @@
-puts "First number:"
+puts "Enter a color: "
 
-num1 = gets.chomp().to_f
+color = gets.chomp()
 
-puts "Second number:"
+puts "Enter a plural noun: "
 
-num2 = gets.chomp().to_f
+plural_noun = gets.chomp()
 
-puts (num1 + num2)
+puts "Enter a celebrity: "
+
+celebrity = gets.chomp()
+
+
+puts ("Roses are " + color)
+
+puts (plural_noun + " are blue")
+
+puts ("I love " + celebrity)

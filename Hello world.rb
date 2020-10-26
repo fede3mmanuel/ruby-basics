@@ -1,5 +1,5 @@
-name = "John how"
+puts "Enter your name"
 
-puts name.index("h")
+name = gets
 
-puts "test".upcase()
+puts (name)

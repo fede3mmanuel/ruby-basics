@@ -1,5 +1,5 @@
 puts "Enter your name"
 
-name = gets
+name = gets.chomp()
 
-puts (name)
+puts (name + "hello")

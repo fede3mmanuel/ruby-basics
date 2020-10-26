@@ -1,9 +1,9 @@
 puts "First number:"
 
-num1 = gets.chomp()
+num1 = gets.chomp().to_f
 
 puts "Second number:"
 
-num2 = gets.chomp()
+num2 = gets.chomp().to_f
 
-puts (num1.to_f + num2.to_f)
+puts (num1 + num2)

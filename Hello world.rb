@@ -1,18 +1,11 @@
-puts "Enter a color: "
+friends = Array.new
 
-color = gets.chomp()
+friends[0] = gets
 
-puts "Enter a plural noun: "
+friends[1] = "john"
 
-plural_noun = gets.chomp()
+puts friends.include? "john"
 
-puts "Enter a celebrity: "
+puts friends.reverse()
 
-celebrity = gets.chomp()
-
-
-puts ("Roses are " + color)
-
-puts (plural_noun + " are blue")
-
-puts ("I love " + celebrity)
+puts friends.sort()

@@ -1,6 +1,8 @@
-def sayhi(name = "no name", age = -1)
-    puts ("Hello " + name + " and you are " + age.to_s + " years old")
+def cube(num)
+    return num * num * num, 60
+    5
+    puts "test"
 end
 
-
-sayhi("as")
+puts cube(3)
+puts cube(3)[1]

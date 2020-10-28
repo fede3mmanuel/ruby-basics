@@ -1,11 +1,9 @@
-friends = Array.new
+states = {
+    "Pennsylvania" => "PA",
+    2 => "NY",
+    :Oregon => "OR"
+}
 
-friends[0] = gets
-
-friends[1] = "john"
-
-puts friends.include? "john"
-
-puts friends.reverse()
-
-puts friends.sort()
+puts states
+puts states[:Oregon]
+puts states[2]

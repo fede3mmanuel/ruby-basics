@@ -1,9 +1,7 @@
-states = {
-    "Pennsylvania" => "PA",
-    2 => "NY",
-    :Oregon => "OR"
-}
+def sayhi
+    puts "Hello"
+end
 
-puts states
-puts states[:Oregon]
-puts states[2]
+puts "start"
+sayhi
+puts "end"

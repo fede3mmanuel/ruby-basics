@@ -1,8 +1,5 @@
-def cube(num)
-    return num * num * num, 60
-    5
-    puts "test"
-end
+ismale = true
 
-puts cube(3)
-puts cube(3)[1]
+if ismale
+    puts "You are male"
+end

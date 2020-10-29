@@ -1,21 +1,8 @@
 
 
-def get_day_name(day)
-    day_name = ""
+index = 1
 
-    case day
-    when "mon"
-        day_name = "Monday"
-    when "tue"
-        day_name = "Tuesday"
-    else
-        day_name = "Invalid Abbreviation"
-    end
-
-
-    return day_name
+while index <= 5
+    puts index
+    index += 1
 end
-
-
-
-puts get_day_name("mwon")

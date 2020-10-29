@@ -1,4 +1,14 @@
 
-# test
+File.open("employees.txt", "r") do |file|
 
-puts "Comments"
+    for line in file.readlines()
+        puts line
+    end
+
+end
+
+file = File.open("employees.txt", "r")
+
+puts file.read
+
+file.close()

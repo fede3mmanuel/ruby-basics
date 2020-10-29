@@ -1,24 +1,18 @@
 
+friends = ["Kevin", "Karen", "Oscar", "Angela", "Andy"]
 
-secret_word = "dog"
-guess = ""
-guess_count = 0
-guess_limit = 3
-out_of_guesses = false
-
-while guess != secret_word and !out_of_guesses
-    if guess_count < guess_limit
-        puts "Enter guess: "
-        guess = gets.chomp()
-        guess_count += 1
-    else
-        out_of_guesses = true
-    end
-    
+for friend in friends
+    puts friend
 end
 
-if out_of_guesses
-    puts "You lose"
-else
-    puts "You Won!"
+friends.each do |friend|
+    puts friend
+end
+
+for index in 0..5
+    puts index
+end
+
+6.times do |index|
+    puts index
 end

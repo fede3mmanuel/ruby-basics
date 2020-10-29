@@ -1,33 +1,29 @@
 
-class Question
-    attr_accessor :prompt, :answer
-    def initialize(prompt, answer)
-        @prompt = prompt
-        @answer = answer
+class Chef
+    def make_chicken
+        puts "the chef makes chicken"
+    end
+    def make_salad
+        puts "The chef makes salad"
+    end
+    def make_special_dish
+        puts "The chef makes bbq ribs"
     end
 end
 
-p1 = "Color of apples?: \n (a)red \n (b)blue \n (c)brown"
-p2 = "Color of bananas?: \n (a)red \n (b)blue \n (c)yellow"
-p3 = "Color of pears?: \n (a)red \n (b)blue \n (c)green"
-
-questions = [
-    Question.new(p1,"a"),
-    Question.new(p2, "c"),
-    Question.new(p3, "c")
-]
-
-def run_test(questions)
-    answer = ""
-    score = 0
-    for question in questions
-        puts question.prompt
-        answer = gets.chomp()
-        if answer == question.answer
-            score += 1
-        end
+class ItalianChef < Chef
+    def make_special_dish
+        puts "The chef makes eggplant parm"
     end
-    puts ("You got " + score.to_s + "/" + questions.length().to_s)
+    def make_pasta
+        puts "The chef makes pasta"
+    end
 end
 
-run_test(questions)
+chef = Chef.new()
+chef.make_special_dish
+
+
+italian_chef = ItalianChef.new()
+italian_chef.make_special_dish
+italian_chef.make_pasta

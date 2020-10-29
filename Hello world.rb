@@ -1,14 +1,15 @@
-lucky_nums = [3, 4, 6, 9]
-
-#lucky_nums[8]
-
-#num = 10 / 0
-
-begin
-    lucky_nums["df"]
-    #num = 10 / 0
-rescue ZeroDivisionError
-    puts "Division by zero error"
-rescue TypeError => e
-    puts e
+class Book
+    attr_accessor :title, :author, :pages
 end
+
+book1 = Book.new()
+book1.title  = "Harry Potter"
+book1.author = "Rowlin"
+book1.pages = 100
+
+book2 = Book.new()
+book2.title = "Lord of the rings"
+book2.author = "Tolkein"
+book2.pages = 500
+
+puts book2.pages
